@@ -2,6 +2,12 @@ import React, { Component } from "react";
 
 class Idcard extends Component {
 
+
+    state = {
+
+        
+    }
+
     render () {
         return (
             <>

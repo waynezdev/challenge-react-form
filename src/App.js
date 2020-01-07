@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 import Idcard from "./components/Idcard";
+import Form from "./components/Form";
 
 class App extends Component {
+
+    state = {
+
+        username:"",
+        email: ""
+    }
+
+
     render () {
         return (
             <>
-            <div>
-                <h3>Username</h3>
-                <input type="textfield"  />
-            </div>
-
-            <div>
-                <h3>Email</h3>
-                <input type="textfield"  />
-            </div>
-
+            <Form />
             <Idcard />
             </>
 
